@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmx http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmx/gmx.xsd">
+  <!--Gemini2 item number 45, File Identifier, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#45/-->
+  <!--Version 4 UUID generated at https://www.uuidgenerator.net/-->
+  <gmd:fileIdentifier>
+    <gco:CharacterString>32ed8a71-4059-4156-a6eb-27562ce8d4c8</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <!--Gemini2 item number 33, Metadata Language, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#33/-->  
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <!--Gemini2 item number 39, Resource Type, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#39/-->  
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <!--Gemini2 item number 35, Metadata Point of Contact, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#35/-->    
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>HM Land Registry</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Commercial Services</gco:CharacterString>
+      </gmd:positionName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString>+44 300 006 0411</gco:CharacterString>
+                </gmd:voice>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>HM Land Registry Citizen Centre</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>PO Box 74</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Gloucester</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>GL14 9BB</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>United Kingdom</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>CommercialServicesInbox@landregistry.gov.uk</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.gov.uk/government/organisations/land-registry</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <!--Gemini2 item number 30, Metadata Date, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#30/-->    
+  <gmd:dateStamp>
+    <gco:DateTime>2019-03-21T18:30:00</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115 (UK GEMINI)</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0 (2.2)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <!--Gemini2 item number 17, Spatial reference system, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#17/-->      
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/27700</gco:CharacterString>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <!--Gemini2 item number 1, Title, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#1/-->  		
+          <gmd:title>
+            <gco:CharacterString>Commercial and Corporate Ownership Data</gco:CharacterString>
+          </gmd:title>
+          <!--Gemini2 item number 2, Alternate Title, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#2/-->  		  
+		  <gmd:alternateTitle>
+		    <gco:CharacterString>Geospatial Data Catalogue</gco:CharacterString>
+		  </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <!--Gemini2 item number 8, Dataset Reference Date, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#8/-->  			
+              <gmd:date>
+                <gco:Date>2014-09-09</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <!--Gemini2 item number 36, Unique resource identifier, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#36/-->    		  
+          <gmd:identifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>Universally Unique Identifier (UUID)</gco:CharacterString>
+              </gmd:code>
+              <gmd:codeSpace>
+                <gco:CharacterString>https://www.uuidgenerator.net/</gco:CharacterString>
+              </gmd:codeSpace>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <!--Gemini2 item number 4, Abstract, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#4/-->    	  
+      <gmd:abstract>
+        <gco:CharacterString>Data held in relation to legal owners of Estates in Land including name and 'addresses for service' (correspondence addresses). All categories of ownership except for Private Individuals, Trustees, Charities and Overseas Companies. All categories of 'addresses for service' except for Overseas addresses, email and BFPO. The dataset consists of the title number, tenure, land or property address, price paid (where available), administrative area, company name, company registration number (where available), type of company (legal entity), company address(es), date the ownership was registered, additional proprietor indicator and multiple address indicator.</gco:CharacterString>
+      </gmd:abstract>
+      <!--Gemini2 item number 23, Responsible organisation, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#23/-->    	  
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+		 <gco:CharacterString>HM Land Registry</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Commercial Services</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+44 300 006 0411</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>HM Land Registry Citizen Centre</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>PO Box 74</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Gloucester</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>GL14 9BB</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>United Kingdom</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>CommercialServicesInbox@landregistry.gov.uk</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.gov.uk/government/organisations/land-registry</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <!--Gemini2 item number 24, Frequency of update, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#24/-->
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="monthly">monthly</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <!--Gemini2 item number 6, Keyword, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#6/-->   
+      <!--Code / Ontology / Ontology Date-->		  
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>	  
+            <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/theme/cp">Cadastral parcels</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/inspire_themes">GEMET - INSPIRE themes, version 1.0</gmx:Anchor>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-06-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <!--Gemini2 item number 6, Keyword, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#6/-->   	  
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Register of title</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Ownership</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Commercial</gco:CharacterString>
+          </gmd:keyword>
+		  <gmd:keyword>
+            <gco:CharacterString>Government land</gco:CharacterString>
+          </gmd:keyword>
+		  <gmd:keyword>
+            <gco:CharacterString>Public sector land</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Companies</gco:CharacterString>
+          </gmd:keyword>		  
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <!--Gemini2 item number 25, Limitations on public access, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#25/-->   		  
+          <gmd:otherConstraints>
+            <gmx:Anchor xlink:href="https://data.landregistry.gov.uk/data_pub/terms-of-use/read/ccod">Licenced Terms of Use: attribution required. This information produced by HM Land Registry © Crown copyright [year of supply or date of publication].</gmx:Anchor>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <!--Gemini2 item number 26, Use constraints, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#26/-->   		  		
+          <gmd:useLimitation>
+            <gco:CharacterString>Conditions for the re-use of data (addresses) which contain third party intellectual property rights. Property addresses contained within the Commercial and Corporate Ownership Data are processed against Ordnance Survey’s AddressBase Premium product, which incorporates Royal Mail’s PAF® database (Address Data).</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <!--Gemini2 item number 43, Equivalent scale, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#43/-->   		  		
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>1250</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+	        <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>2500</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+	        <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>10000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <!--Gemini2 item number 3, Dataset language, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#3/-->   		  	  
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</gmd:LanguageCode>
+      </gmd:language>
+      <!--Gemini2 item number 5, Topic category, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#5/-->   		  	  
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>location</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>		  
+            <!--Gemini2 item number 44, Bounding box, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#44/-->   		  		  
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-6.33</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>1.78</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>49.84</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>55.8</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <!--Gemini2 item number 7, Temporal extent, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#7/-->		  
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="_d3560e84">
+                  <gml:beginPosition indeterminatePosition="unknown" />
+                  <gml:endPosition indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <!--Gemini2 item number 21, Data Format, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#21/-->	
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GML</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>3.2.1</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Corporate and Commercial Ownership Data</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>version 3.0.1; GML, version 3.2.1</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <!--Gemini2 item number 19, Resource locator, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#19/-->		  
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+			  <gmd:linkage>
+                <gmd:URL>https://www.gov.uk/guidance/hm-land-registry-commercial-and-corporate-ownership-data</gmd:URL>
+              </gmd:linkage>
+			  <gmd:name>
+                <gco:CharacterString>HM Land Registry: Corporate and Commercial Ownership Data</gco:CharacterString>
+              </gmd:name>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <!--Gemini2 item number 19, Resource locator, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#19/-->		  
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+			  <gmd:linkage>
+                <gmd:URL>https://www.gov.uk/government/publications/commercial-and-corporate-ownership-data-technical-specification</gmd:URL>
+              </gmd:linkage>
+			  <gmd:name>
+                <gco:CharacterString>Corporate and Commercial Ownership Data: technical specification</gco:CharacterString>
+              </gmd:name>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>	  
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <!--Gemini2 item number 48, Quality scope, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#48/-->		
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+	    <!--Gemini2 item number 41, Conformity, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#41/-->	
+        <gmd:DQ_DomainConsistency>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2010-12-08</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>This data conforms except in that it is only available in British Natioanl Grid. We have extended the INSPIRE NamedPlace feature with a number of additional association properties, providing an explicit context for the feature in relation to administrative units, or indicating the related road feature, and with references out to GeoNames and DBPedia.</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>true</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      <!--Gemini2 item number 10, Lineage, https://www.agi.org.uk/agi-groups/standards-committee/uk-gemini/40-gemini/1062-gemini-datasets-and-data-series#10/-->		  
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Data collected through HM Land Registry registration processes.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
